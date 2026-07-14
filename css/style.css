@@ -94,7 +94,8 @@ ul, ol { list-style: none; }
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   padding: 20px 0; transition: all 0.4s ease;
 }
-.nav.scrolled { background: rgba(10,10,12,0.92); backdrop-filter: blur(20px); padding: 14px 0; }
+.nav.scrolled { background: rgba(10,10,12,0.92); backdrop-filter: blur(20px); padding: 14px 0; margin-top: -86px;
+    padding-top: 100px;}
 .nav-inner {
   max-width: var(--max-w); margin: 0 auto; padding: 0 24px;
   display: flex; justify-content: space-between; align-items: center;
@@ -125,6 +126,8 @@ ul, ol { list-style: none; }
   position: relative; min-height: 100vh; display: flex; align-items: center;
   overflow: hidden;
 }
+
+
 .hero-video-wrap {
   position: absolute; inset: 0; z-index: 0;
   background: linear-gradient(135deg,#1a1a2e 100%,#16213e 57.25vw,#0f3460 50%,#1a1a2e 0%);
@@ -635,6 +638,7 @@ ul, ol { list-style: none; }
 @media (max-width: 1024px) {
   .about-grid, .community-grid, .partners-grid, .route-grid { grid-template-columns: 1fr; }
   .diff-cards { grid-template-columns: repeat(2, 1fr); }
+  .nav-logo { width: 8vw;}
   .city-section { grid-template-columns: 1fr; }
   .city-section:nth-child(even) { direction: ltr; }
   .hero-actions { display: flex; align-items: flex-start; flex-direction: column; width: 100%; }
@@ -645,6 +649,7 @@ ul, ol { list-style: none; }
 @media (max-width: 768px) {
   :root { --section-py: 80px; }
   .nav-links { display: none; }
+  .nav-logo { width: 12vw;}
   .nav-toggle { display: flex; }
   .diff-cards { grid-template-columns: 1fr; }
   .diff-card .dc-pos { max-height: 140px; opacity: 1; margin-top: 4px; }
