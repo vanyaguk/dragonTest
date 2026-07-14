@@ -96,6 +96,7 @@ ul, ol { list-style: none; }
 }
 .nav.scrolled { background: rgba(10,10,12,0.92); backdrop-filter: blur(20px); padding: 14px 0; 
   padding-top: env(safe-area-inset-top+14px);
+  padding-bottom: 65px;
       height: calc(64px + env(safe-area-inset-top));
 
   
@@ -648,6 +649,7 @@ ul, ol { list-style: none; }
   .hero-actions { display: flex; align-items: flex-start; flex-direction: column; width: 100%; }
   .hero-floats { position: static; flex-direction: row; flex-wrap: wrap; }
   .trust-cards { grid-template-columns: repeat(2, 1fr); }
+ 
 }
 
 @media (max-width: 768px) {
@@ -665,6 +667,7 @@ ul, ol { list-style: none; }
     top: 0; bottom: 0; left: 5px; right: auto;
     width: 2px; height: auto;
   }
+   .nav.scrolled { padding-bottom: 10px;}
   .timeline-step { padding: 0 0 0 32px; }
   .timeline-step::after { top: 6px; left: 0; }
   .join-steps { flex-direction: column; }
