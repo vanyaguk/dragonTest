@@ -96,7 +96,7 @@ ul, ol { list-style: none; }
 }
 .nav.scrolled { background: rgba(10,10,12,0.92); backdrop-filter: blur(20px); padding: 14px 0; 
   padding-top: env(safe-area-inset-top+14px);
-      height: calc(80px + env(safe-area-inset-top));
+      height: calc(64px + env(safe-area-inset-top));
 
   
   }
