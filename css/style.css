@@ -636,7 +636,7 @@ ul, ol { list-style: none; }
   flex-direction: column; align-items: center; justify-content: center; gap: 32px;
 }
 .mobile-menu.open { display: flex; }
-.mobile-menu a { font-size: 18px; color: var(--text-primary); }
+.mobile-menu a { font-size: 18px; }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
